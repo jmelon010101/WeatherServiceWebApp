@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css?family=Indie+Flower&display=swap');
+*{
+    box-sizing:border-box;
+    margin:0;
+    padding: 0;
+    
+}
+body {
+	background-color: #EBF7E3;
+	font-family: 'Indie Flower', cursive;
+}
+
+
+.topBar ul li{
+   	border-radius:20px;
+   	display: block;
+    text-decoration:none;
+	justify-content: center;
+	border: 1px solid black;
+	background-color: #9BD770;
+	color: #1B3409;
+	width: 100%;
+    list-style:none;
+}
+.topBar p{
+    font-size:4em;
+    text-align:center;
+    padding-top:5px;
+    
+}
+.topBar ul{
+	font-size: 2.5em;
+	text-align: center;
+    font-weight: bold;
+    width: 100%;
+}
+
+.image{
+    size:33%;
+    width:100%;
+  
+}
+
+a, a:hover, a:focus, a:active {
+    text-decoration: none;
+    color: inherit;
+}
+.parkNames {
+	font-weight: bold;
+}
+.parkStates {
+	font-weight: bold;
+}
+#logoName {
+	font-weight: bold;
+}
+.detailsParksName{
+	font-weight: bold;
+}
+.detailsParkState {
+	font-weight: bold;
+}
+.detailImage {
+	size: 30%;
+}
+#today {
+	font-weight: bold;
+}
+@media only screen and (min-width: 1024px){
+	
+	.detailImage {
+		width: 10%;
+	}
+	
+	.weatherItem{
+		display: flex;
+		flex-direction: column;
+		justify-content: between;
+	}
+	.topBar ul{
+		width: 30%;
+		justify-content: center;
+	}
+	
+}
